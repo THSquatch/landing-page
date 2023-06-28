@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -33,10 +35,11 @@ ul {
     display: flex;
     justify-content: center;
     padding: 50px;
+    gap: 50px;
 }
 
 .s1c-left {
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -54,7 +57,7 @@ div h1 {
     color: #E5E7EB;
 }
 
-button {
+.s1c-left button {
     background-color: #3882F6;
     color: white;
     padding: 5px 25px;
@@ -73,8 +76,115 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 li img {
-    border: 0 #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+   
+}
+
+li p {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.s3 {
+    width: 665px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.citation  {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -30px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.s4 {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 25px 125px;
+    margin: 100px auto;
+    width: 750px;
+    justify-content: space-between;
+}
+
+.s4-left h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.s4-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -15px;
+}
+
+.s4 button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E5E7EB;
+    border-radius: 8px;
+    align-self: center;
+    padding: 5px 25px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #E5E7EB;
 }
